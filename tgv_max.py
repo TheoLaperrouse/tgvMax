@@ -28,9 +28,7 @@ def loop_train(origine,destination,mois):
 def main():
     mois = "2022%2F07%2F"
     loop_train("PARIS+(intramuros)","RENNES",mois)
-    loop_train("METZ+VILLE","PARIS+(intramuros)","2022%2F07%2F",mois)
-    
-    
+    loop_train("METZ+VILLE","PARIS+(intramuros)",mois)
 
 if __name__ == '__main__':
     main()
